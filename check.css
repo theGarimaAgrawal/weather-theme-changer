@@ -1,0 +1,28 @@
+.lightBlue {
+    background-color: #cce7f6 !important; /* softer sky blue */
+    color: #1a1a1a !important;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+.sunnyYellow {
+    background-color: #fff5b7 !important; /* pastel sunshine */
+    color: #3a3a3a !important;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  
+.overcast {
+    background-color: #b0b0b0 !important; /* mid-tone neutral */
+    color: #f8f8f8 !important;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+
+.rainyGray {
+    background-color: #C0CFE0 !important; /* mid-tone neutral */
+    color: #2C3E50 !important;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+/* Mist / Fog */
+.misty {
+    background-color: #dbe0e4 !important; /* foggy grey-blue */
+    color: #555555 !important;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }

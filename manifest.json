@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Weather Theme Changer",
+    "version": "1.0",
+    "description": "Changes site theme based on weather.",
+    "permissions": ["geolocation", "storage", "scripting"],
+    "content_scripts": [
+      {
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["check.js"],
+        "css": ["check.css"],
+        "run_at": "document_idle"
+      }
+    ],
+    "host_permissions": ["<all_urls>"],
+    "action": {
+      "default_popup": "check.html"
+    }
+  }
+  

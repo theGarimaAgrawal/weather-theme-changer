@@ -1,1 +1,2 @@
-# weather-theme-changer
+# Weather Theme Changer
+
